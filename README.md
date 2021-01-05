@@ -16,8 +16,8 @@ How it works?
 Let's Understand with Example.
 - Example: 
 	
-	Data    = ABCDBCABCABCABC
-	pattern = BC
+	- Data    = ABCDBCABCABCABC
+	- pattern = BC
 	
 	compare A == B // False,
 		Now pattern initilize to index 0.
