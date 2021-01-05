@@ -86,8 +86,8 @@ def naive_pattern_search(data,search):
 			
 			#Data and search have same element then both Index increment by 1.
 			if data[i]==search[j]:
-				print(f"\n{ data[i] } { search[j] }")
-				print(f"i : {i}  {data[i]}   j : {j}  {search[j]}")
+				#print(f"\n{ data[i] } { search[j] }")
+				#print(f"i : {i}  {data[i]}   j : {j}  {search[j]}")
 				i+=1
 				j+=1
 				count+=1
