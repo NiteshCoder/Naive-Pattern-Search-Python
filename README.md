@@ -9,6 +9,10 @@ How it works?
 - If both the element is different then ,
   pattern again initilise to 0th index but Data not.
 
+
+- Note : 
+	- Each element of data compare with pattern again and again.
+	
 Let's Understand with Example.
 - Example: 
 	
@@ -16,26 +20,25 @@ Let's Understand with Example.
 	- pattern = B C
 	
 	- Step 1 : A B C D B C A B C A B C A B C
-	- compare:   B C
+	- compare:   A B == B C
 	
 	- Step 2 : A B C D B C A B C A B C A B C
-	- compare:     B C  
+	- compare:   B C == B C  
 
 	- Step 3 : A B C D B C A B C A B C A B C
-	- compare:       B C
+	- compare:    C D ==  B C
 
 	- Step 4 : A B C D B C A B C A B C A B C
-	- compare:         B C
+	- compare:      D B ==   B C
 	
 	- Step 4 : A B C D B C A B C A B C A B C
-	- compare:           B C
+	- compare:        B C ==   B C
 	
 	- Step 4 : A B C D B C A B C A B C A B C
-	- compare:             B C
+	- compare:        C A ==  B C
 	
 	- Step 4 : A B C D B C A B C A B C A B C
-	- compare:               B C
-
+	- compare:            ....
 	Etc.
 THANK YOU.
 
