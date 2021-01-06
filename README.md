@@ -12,29 +12,29 @@ How it works?
 Let's Understand with Example.
 - Example: 
 	
-	Data    = A B C D B C A B C A B C A B C
-	pattern = B C
+	- Data    = A B C D B C A B C A B C A B C
+	- pattern = B C
 	
-	-Step 1 : A B C D B C A B C A B C A B C
-	/compare:   B C
+	- Step 1 : A B C D B C A B C A B C A B C
+	- compare:   B C
 	
-	-Step 2 : A B C D B C A B C A B C A B C
-	/compare:     B C  
+	- Step 2 : A B C D B C A B C A B C A B C
+	- compare:     B C  
 
-	-Step 3 : A B C D B C A B C A B C A B C
-	/compare:       B C
+	- Step 3 : A B C D B C A B C A B C A B C
+	- compare:       B C
 
-	-Step 4 : A B C D B C A B C A B C A B C
-	/compare:         B C
+	- Step 4 : A B C D B C A B C A B C A B C
+	- compare:         B C
 	
-	-Step 4 : A B C D B C A B C A B C A B C
-	/compare:           B C
+	- Step 4 : A B C D B C A B C A B C A B C
+	- compare:           B C
 	
-	-Step 4 : A B C D B C A B C A B C A B C
-	/compare:             B C
+	- Step 4 : A B C D B C A B C A B C A B C
+	- compare:             B C
 	
-	-Step 4 : A B C D B C A B C A B C A B C
-	/compare:               B C
+	- Step 4 : A B C D B C A B C A B C A B C
+	- compare:               B C
 
 	Etc.
 THANK YOU.
